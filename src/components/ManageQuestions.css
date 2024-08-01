@@ -1,0 +1,71 @@
+.main-content-manage {
+  width: 90%;
+  max-width: 800px;
+  overflow-y: auto;
+  max-height: 80vh;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+}
+
+.manage-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.manage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.manage-container select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.manage-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.manage-container button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.manage-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.manage-container ul li {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}

@@ -1,0 +1,514 @@
+{
+  "subjects": [
+    {
+      "name": "Java",
+      "difficultyLevels": [
+        {
+          "level": "EASY",
+          "questions": [
+            {
+              "question": "What is the capital of Java?",
+              "options": ["Jakarta", "Bandung", "Surabaya", "Yogyakarta"],
+              "answer": "Jakarta"
+            },
+            {
+              "question": "What is the purpose of the 'public static void main' method in Java?",
+              "options": ["To declare a variable", "To define a function", "To start the program execution", "To import a library"],
+              "answer": "To start the program execution"
+            },
+            {
+              "question": "Which data type is used to create a variable that should store text?",
+              "options": ["myString", "string", "String", "Txt"],
+              "answer": "String"
+            },
+            {
+              "question": "Which method can be used to find the length of a string in Java?",
+              "options": ["getLength()", "len()", "length()", "getSize()"],
+              "answer": "length()"
+            },
+            {
+              "question": "What is the default value of a boolean variable in Java?",
+              "options": ["true", "false", "0", "1"],
+              "answer": "false"
+            },
+            {
+              "question": "Which of the following is not a valid access modifier in Java?",
+              "options": ["private", "public", "protected", "internal"],
+              "answer": "internal"
+            },
+            {
+              "question": "Which of the following loops in Java is guaranteed to execute at least once?",
+              "options": ["for loop", "while loop", "do-while loop", "for-each loop"],
+              "answer": "do-while loop"
+            },
+            {
+              "question": "What will be the output of the following code? int x = 5; int y = 10; System.out.println(x + y);",
+              "options": ["5", "10", "15", "510"],
+              "answer": "15"
+            },
+            {
+              "question": "Which of the following is used to handle exceptions in Java?",
+              "options": ["try-catch", "do-while", "if-else", "for"],
+              "answer": "try-catch"
+            },
+            {
+              "question": "Which of the following is not a primitive data type in Java?",
+              "options": ["int", "Byte", "char", "boolean"],
+              "answer": "Byte"
+            }
+          ]
+        },
+        {
+          "level": "MID",
+          "questions": [
+            {
+              "question": "Which of the following is true about Java?",
+              "options": ["Java is a procedural language", "Java is a scripting language", "Java is an object-oriented language", "Java is a markup language"],
+              "answer": "Java is an object-oriented language"
+            },
+            {
+              "question": "Which method is called when an object is created in Java?",
+              "options": ["finalize()", "main()", "start()", "constructor"],
+              "answer": "constructor"
+            },
+            {
+              "question": "What is the size of an int data type in Java?",
+              "options": ["4 bytes", "8 bytes", "16 bytes", "2 bytes"],
+              "answer": "4 bytes"
+            },
+            {
+              "question": "Which of the following is used to create an instance of a class?",
+              "options": ["Object", "new keyword", "Constructor", "Class"],
+              "answer": "new keyword"
+            },
+            {
+              "question": "Which of the following statements is used to exit a loop?",
+              "options": ["return", "exit", "break", "continue"],
+              "answer": "break"
+            },
+            {
+              "question": "What is the superclass of all classes in Java?",
+              "options": ["Object", "Class", "System", "Runtime"],
+              "answer": "Object"
+            },
+            {
+              "question": "Which of the following is not an interface in the Java Collections Framework?",
+              "options": ["List", "Map", "Set", "ArrayList"],
+              "answer": "ArrayList"
+            },
+            {
+              "question": "Which of the following is not a valid Java keyword?",
+              "options": ["static", "Boolean", "void", "private"],
+              "answer": "Boolean"
+            },
+            {
+              "question": "What is the output of the following code? System.out.println(10 + 20 + '30');",
+              "options": ["1030", "50", "3030", "50.0"],
+              "answer": "50"
+            },
+            {
+              "question": "Which package contains the Random class?",
+              "options": ["java.util", "java.lang", "java.io", "java.awt"],
+              "answer": "java.util"
+            }
+          ]
+        },
+        {
+          "level": "HARD",
+          "questions": [
+            {
+              "question": "Which of the following is a valid statement for defining an interface?",
+              "options": ["public interface MyInterface {}", "public class interface MyInterface {}", "interface MyInterface extends AnotherInterface {}", "public interface MyInterface implements AnotherInterface {}"],
+              "answer": "public interface MyInterface {}"
+            },
+            {
+              "question": "What is the output of the following code? int a = 10; int b = 20; a = a + b; b = a - b; a = a - b; System.out.println(a + \", \" + b);",
+              "options": ["10, 20", "20, 10", "30, 10", "10, 30"],
+              "answer": "20, 10"
+            },
+            {
+              "question": "Which of the following statements is true about the finalize() method?",
+              "options": ["It is called to explicitly release system resources", "It is used to initialize objects", "It is called before an object is garbage collected", "It is used to destroy objects"],
+              "answer": "It is called before an object is garbage collected"
+            },
+            {
+              "question": "Which of the following exception is thrown when a division by zero occurs?",
+              "options": ["NullPointerException", "ArithmeticException", "ArrayIndexOutOfBoundsException", "NumberFormatException"],
+              "answer": "ArithmeticException"
+            },
+            {
+              "question": "Which of the following methods can be used to sort an array in Java?",
+              "options": ["Collections.sort()", "Arrays.sort()", "Array.sort()", "Collection.sort()"],
+              "answer": "Arrays.sort()"
+            },
+            {
+              "question": "What is the purpose of the transient keyword?",
+              "options": ["To mark a variable not to be serialized", "To make a variable static", "To create a constant", "To define a synchronized block"],
+              "answer": "To mark a variable not to be serialized"
+            },
+            {
+              "question": "Which of the following is not a feature of the Java programming language?",
+              "options": ["Object-oriented", "Portable", "Distributed", "Low-level"],
+              "answer": "Low-level"
+            },
+            {
+              "question": "What is the output of the following code? int x = 5; System.out.println(++x);",
+              "options": ["5", "6", "4", "error"],
+              "answer": "6"
+            },
+            {
+              "question": "Which of the following is a marker interface?",
+              "options": ["Serializable", "Cloneable", "EventListener", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "Which of the following classes is used to handle file input and output in Java?",
+              "options": ["FileInputStream", "BufferedReader", "Scanner", "All of the above"],
+              "answer": "All of the above"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "difficultyLevels": [
+        {
+          "level": "EASY",
+          "questions": [
+            {
+              "question": "Which of the following is a valid JavaScript data type?",
+              "options": ["Number", "String", "Boolean", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "Which symbol is used for comments in JavaScript?",
+              "options": ["//", "/* */", "<!-- -->", "Both // and /* */"],
+              "answer": "Both // and /* */"
+            },
+            {
+              "question": "What is the correct syntax to create a variable in JavaScript?",
+              "options": ["var myVar;", "variable myVar;", "v myVar;", "create myVar;"],
+              "answer": "var myVar;"
+            },
+            {
+              "question": "How do you write 'Hello World' in an alert box?",
+              "options": ["alertBox('Hello World');", "alert('Hello World');", "msgBox('Hello World');", "msg('Hello World');"],
+              "answer": "alert('Hello World');"
+            },
+            {
+              "question": "Which operator is used to assign a value to a variable?",
+              "options": ["*", "=", "-", "+"],
+              "answer": "="
+            },
+            {
+              "question": "How do you create a function in JavaScript?",
+              "options": ["function myFunction() {}", "function:myFunction() {}", "function = myFunction() {}", "function => myFunction() {}"],
+              "answer": "function myFunction() {}"
+            },
+            {
+              "question": "How do you call a function named 'myFunction'?",
+              "options": ["call function myFunction();", "call myFunction();", "myFunction();", "call.myFunction();"],
+              "answer": "myFunction();"
+            },
+            {
+              "question": "How to write an if statement in JavaScript?",
+              "options": ["if i == 5 then", "if (i == 5)", "if i = 5", "if i = 5 then"],
+              "answer": "if (i == 5)"
+            },
+            {
+              "question": "How does a while loop start?",
+              "options": ["while (i <= 10)", "while i = 1 to 10", "while (i <= 10; i++)", "while (i)"],
+              "answer": "while (i <= 10)"
+            },
+            {
+              "question": "How can you add a comment in JavaScript?",
+              "options": ["<!-- This is a comment -->", "// This is a comment", "/* This is a comment */", "Both // and /* */"],
+              "answer": "Both // and /* */"
+            }
+          ]
+        },
+        {
+          "level": "MID",
+          "questions": [
+            {
+              "question": "Which of the following methods can be used to select an HTML element by its ID?",
+              "options": ["getElementById()", "getElementByClass()", "getElementByTag()", "getElementByName()"],
+              "answer": "getElementById()"
+            },
+            {
+              "question": "What will be the output of the following code? console.log(1 + '1');",
+              "options": ["2", "11", "NaN", "undefined"],
+              "answer": "11"
+            },
+            {
+              "question": "How can you convert a string to a number in JavaScript?",
+              "options": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "Which of the following methods can be used to add a new element to the end of an array?",
+              "options": ["push()", "pop()", "shift()", "unshift()"],
+              "answer": "push()"
+            },
+            {
+              "question": "What is the correct way to write a JavaScript array?",
+              "options": ["var colors = 'red', 'green', 'blue';", "var colors = ['red', 'green', 'blue'];", "var colors = (1:'red', 2:'green', 3:'blue');", "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue');"],
+              "answer": "var colors = ['red', 'green', 'blue'];"
+            },
+            {
+              "question": "Which event occurs when the user clicks on an HTML element?",
+              "options": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+              "answer": "onclick"
+            },
+            {
+              "question": "How do you declare a JavaScript variable?",
+              "options": ["var carName;", "variable carName;", "v carName;", "varName carName;"],
+              "answer": "var carName;"
+            },
+            {
+              "question": "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
+              "options": ["document.getElementById('demo').innerHTML = 'Hello World!';", "document.getElement('p').innerHTML = 'Hello World!';", "document.getElementByName('p').innerHTML = 'Hello World!';", "#demo.innerHTML = 'Hello World!';"],
+              "answer": "document.getElementById('demo').innerHTML = 'Hello World!';"
+            },
+            {
+              "question": "How do you create a function in JavaScript?",
+              "options": ["function myFunction() {}", "function:myFunction() {}", "function = myFunction() {}", "function => myFunction() {}"],
+              "answer": "function myFunction() {}"
+            },
+            {
+              "question": "How do you call a function named 'myFunction'?",
+              "options": ["call function myFunction();", "call myFunction();", "myFunction();", "call.myFunction();"],
+              "answer": "myFunction();"
+            }
+          ]
+        },
+        {
+          "level": "HARD",
+          "questions": [
+            {
+              "question": "Which of the following is true about the 'this' keyword in JavaScript?",
+              "options": ["It refers to the object from which it was called", "It refers to the global object", "It refers to the function that called it", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "What is the purpose of the 'bind' method in JavaScript?",
+              "options": ["To create a new function with a specified 'this' value", "To merge two arrays", "To remove the first element of an array", "To reverse the order of the elements in an array"],
+              "answer": "To create a new function with a specified 'this' value"
+            },
+            {
+              "question": "Which of the following is a closure in JavaScript?",
+              "options": ["A function having access to the parent scope, even after the parent function has closed", "A function that is used to bind events", "A function that is used to create a new array", "A function that is used to loop through an array"],
+              "answer": "A function having access to the parent scope, even after the parent function has closed"
+            },
+            {
+              "question": "What will be the output of the following code? var x = 10; function foo() { console.log(x); var x = 20; } foo();",
+              "options": ["10", "20", "undefined", "ReferenceError"],
+              "answer": "undefined"
+            },
+            {
+              "question": "Which of the following is true about variable hoisting in JavaScript?",
+              "options": ["Variables declared with var are hoisted to the top of their scope", "Variables declared with let and const are hoisted to the top of their scope", "Variables declared with var are hoisted to the top of the global scope", "Variables declared with let and const are not hoisted"],
+              "answer": "Variables declared with var are hoisted to the top of their scope"
+            },
+            {
+              "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+              "options": ["To enforce stricter parsing and error handling", "To enable the use of ES6 features", "To prevent variable hoisting", "To prevent the use of global variables"],
+              "answer": "To enforce stricter parsing and error handling"
+            },
+            {
+              "question": "Which of the following is not a JavaScript framework?",
+              "options": ["React", "Angular", "Vue", "Django"],
+              "answer": "Django"
+            },
+            {
+              "question": "What will be the output of the following code? console.log(typeof null);",
+              "options": ["null", "object", "undefined", "number"],
+              "answer": "object"
+            },
+            {
+              "question": "Which of the following methods is used to convert a JSON object to a string in JavaScript?",
+              "options": ["JSON.parse()", "JSON.stringify()", "JSON.toString()", "JSON.encode()"],
+              "answer": "JSON.stringify()"
+            },
+            {
+              "question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
+              "options": ["To make an object immutable", "To remove properties from an object", "To create a new object with the same properties as an existing object", "To add new properties to an object"],
+              "answer": "To make an object immutable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "React.js",
+      "difficultyLevels": [
+        {
+          "level": "EASY",
+          "questions": [
+            {
+              "question": "What is React.js primarily used for?",
+              "options": ["Building user interfaces", "Server-side scripting", "Database management", "Styling web pages"],
+              "answer": "Building user interfaces"
+            },
+            {
+              "question": "Which method is used to create a new React component?",
+              "options": ["React.component()", "React.createComponent()", "React.makeComponent()", "React.Component()"],
+              "answer": "React.Component()"
+            },
+            {
+              "question": "How do you write a React component using a function?",
+              "options": ["function MyComponent() {}", "function: MyComponent() {}", "function = MyComponent() {}", "function => MyComponent() {}"],
+              "answer": "function MyComponent() {}"
+            },
+            {
+              "question": "What is the correct syntax for a self-closing component in React?",
+              "options": ["<MyComponent></MyComponent>", "<MyComponent />", "<MyComponent />", "<MyComponent><MyComponent />"],
+              "answer": "<MyComponent />"
+            },
+            {
+              "question": "Which hook is used to manage state in a functional component?",
+              "options": ["useEffect", "useState", "useContext", "useReducer"],
+              "answer": "useState"
+            },
+            {
+              "question": "What is JSX?",
+              "options": ["A JavaScript XML syntax", "A CSS preprocessor", "A database query language", "A server-side framework"],
+              "answer": "A JavaScript XML syntax"
+            },
+            {
+              "question": "How do you pass data to a React component?",
+              "options": ["Using props", "Using state", "Using hooks", "Using context"],
+              "answer": "Using props"
+            },
+            {
+              "question": "Which method in a class component is used to handle state updates?",
+              "options": ["setState()", "updateState()", "changeState()", "modifyState()"],
+              "answer": "setState()"
+            },
+            {
+              "question": "What is the virtual DOM in React?",
+              "options": ["A virtual representation of the actual DOM", "A new HTML element", "A new JavaScript framework", "A database"],
+              "answer": "A virtual representation of the actual DOM"
+            },
+            {
+              "question": "How do you apply conditional rendering in React?",
+              "options": ["Using if-else statements", "Using ternary operators", "Using logical && operators", "All of the above"],
+              "answer": "All of the above"
+            }
+          ]
+        },
+        {
+          "level": "MID",
+          "questions": [
+            {
+              "question": "Which hook is used to handle side effects in functional components?",
+              "options": ["useState", "useEffect", "useContext", "useReducer"],
+              "answer": "useEffect"
+            },
+            {
+              "question": "How can you optimize the performance of a React application?",
+              "options": ["Using memoization", "Code splitting", "Lazy loading", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "What is the purpose of React context?",
+              "options": ["To share data between components without passing props", "To manage component state", "To handle side effects", "To create a new component"],
+              "answer": "To share data between components without passing props"
+            },
+            {
+              "question": "Which lifecycle method is called after a component is rendered?",
+              "options": ["componentDidMount", "componentWillUnmount", "componentDidUpdate", "componentWillUpdate"],
+              "answer": "componentDidMount"
+            },
+            {
+              "question": "What is the purpose of the 'key' prop in React?",
+              "options": ["To uniquely identify elements in an array", "To set the state of a component", "To handle events", "To pass data to a component"],
+              "answer": "To uniquely identify elements in an array"
+            },
+            {
+              "question": "What is the difference between state and props in React?",
+              "options": ["State is managed within the component, props are passed to the component", "Props are managed within the component, state is passed to the component", "State is immutable, props are mutable", "State is used for styling, props are used for data"],
+              "answer": "State is managed within the component, props are passed to the component"
+            },
+            {
+              "question": "How do you create a context in React?",
+              "options": ["React.createContext()", "React.makeContext()", "React.buildContext()", "React.useContext()"],
+              "answer": "React.createContext()"
+            },
+            {
+              "question": "How do you update the state of a component in React?",
+              "options": ["Using this.state()", "Using this.setState()", "Using this.updateState()", "Using this.changeState()"],
+              "answer": "Using this.setState()"
+            },
+            {
+              "question": "What is the purpose of the shouldComponentUpdate lifecycle method?",
+              "options": ["To determine whether the component should re-render", "To initialize state", "To fetch data from an API", "To handle side effects"],
+              "answer": "To determine whether the component should re-render"
+            },
+            {
+              "question": "How do you create a ref in React?",
+              "options": ["React.createRef()", "React.makeRef()", "React.buildRef()", "React.useRef()"],
+              "answer": "React.createRef()"
+            }
+          ]
+        },
+        {
+          "level": "HARD",
+          "questions": [
+            {
+              "question": "What is the purpose of the useMemo hook in React?",
+              "options": ["To memoize expensive function calls", "To handle side effects", "To manage component state", "To create a new context"],
+              "answer": "To memoize expensive function calls"
+            },
+            {
+              "question": "How can you handle errors in a React component?",
+              "options": ["Using error boundaries", "Using try-catch blocks", "Using componentDidCatch lifecycle method", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "What is the purpose of the useCallback hook in React?",
+              "options": ["To memoize callback functions", "To handle side effects", "To manage component state", "To create a new context"],
+              "answer": "To memoize callback functions"
+            },
+            {
+              "question": "Which hook can be used to create a custom hook in React?",
+              "options": ["useCustomHook", "useState", "useEffect", "Any hook"],
+              "answer": "Any hook"
+            },
+            {
+              "question": "How do you perform server-side rendering with React?",
+              "options": ["Using Next.js", "Using create-react-app", "Using React DOM", "Using React Router"],
+              "answer": "Using Next.js"
+            },
+            {
+              "question": "What is the purpose of the getDerivedStateFromProps lifecycle method?",
+              "options": ["To update state based on props", "To fetch data from an API", "To handle side effects", "To initialize state"],
+              "answer": "To update state based on props"
+            },
+            {
+              "question": "How do you use the useReducer hook in React?",
+              "options": ["By passing a reducer function and an initial state", "By passing a state and a setState function", "By passing a context and a dispatch function", "By passing a state and a reducer function"],
+              "answer": "By passing a reducer function and an initial state"
+            },
+            {
+              "question": "What is the purpose of the React.Fragment component?",
+              "options": ["To group a list of children without adding extra nodes to the DOM", "To handle side effects", "To manage component state", "To create a new context"],
+              "answer": "To group a list of children without adding extra nodes to the DOM"
+            },
+            {
+              "question": "What is the purpose of the useLayoutEffect hook in React?",
+              "options": ["To read layout from the DOM and synchronously re-render", "To handle side effects", "To manage component state", "To create a new context"],
+              "answer": "To read layout from the DOM and synchronously re-render"
+            },
+            {
+              "question": "What is the difference between useEffect and useLayoutEffect?",
+              "options": ["useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations", "useEffect runs synchronously, useLayoutEffect runs asynchronously after all DOM mutations", "useEffect runs before render, useLayoutEffect runs after render", "useEffect is used for side effects, useLayoutEffect is used for state management"],
+              "answer": "useEffect runs asynchronously, useLayoutEffect runs synchronously after all DOM mutations"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
