@@ -95,6 +95,10 @@ Welcome to the Online Quiz Platform! This React-based application allows users t
 4. **Commit your changes** and push to your fork.
 5. **Submit a pull request** to the main repository.
 
+## Deployment
+
+The application is deployed and accessible at Online Quiz Platform.
+Link - https://benevolent-croissant-6b21c1.netlify.app/
 
 Made with ❤️ by Deependra Singh
 
